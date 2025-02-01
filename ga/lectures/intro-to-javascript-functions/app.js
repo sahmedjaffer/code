@@ -1,3 +1,5 @@
+// Exercise 1
+
 
 //Clarify the variable
 const planet="";
@@ -18,7 +20,7 @@ function planetHasWater(planet){
     }
 }
 
-
+// Exercise 2
 
 const width=0;
 const height=0;
