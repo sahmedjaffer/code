@@ -21,7 +21,7 @@ function planetHasWater(planet){
 }
 
 // Exercise 2
-
+// 1
 const width=0;
 const height=0;
 console.log(computeArea(5, 25));
@@ -31,4 +31,20 @@ function computeArea (width,height){
     return message;
 }
 
+// 2
 
+//console.log(computeArea1(5, 25));
+    const computeArea1 = function (width,height){
+    const totalArea = width*height;
+    const message =`The area of a rectangle with a width of ${width} and a height of ${height} is ${totalArea} square units.`;
+    return message;
+}
+console.log(computeArea1(5, 25));
+
+// 3
+const computeArea2=(width,height)=> {
+    const totalArea = width*height;
+    const message =`The area of a rectangle with a width of ${width} and a height of ${height} is ${totalArea} square units.`;
+    return message; 
+}
+console.log(computeArea2(5, 25));
