@@ -247,14 +247,20 @@ Method 1:
 
 // Method 2
 
+
 let num;
-for (let i = 0 ; i < numArrays.length; i++){
-   for (let k = 0 ; k < numArrays[i].length; k++){
-      if (numArrays[i][k] === 66){
-       num= numArrays[i][k];
-      };
-   };
-};
+numArrays.forEach(numArray => numArray.forEach(numArr => numArr === 66 && (num= numArr)))
+
+// Method 3
+/*
+ for (let i = 0 ; i < numArrays.length; i++){
+    for (let k = 0 ; k < numArrays[i].length; k++){
+       if (numArrays[i][k] === 66){
+        num= numArrays[i][k];
+       };
+    };
+ };
+*/
 console.log('Exercise 14 result:', num);
 
 /*
