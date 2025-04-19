@@ -1,7 +1,9 @@
-const multiply = (a, b) => {
-    return a * b;
-};
+const validator = require('validator')
 
-const product = multiply(5, 8);
 
-console.log(product);
+console.log(validator.isEmail('test@email.com'))
+console.log(validator.isEmail('test=email.com'))
+
+
+console.log(validator.isUppercase('HI DARLING'))
+console.log(validator.isUppercase('hi darling'))
